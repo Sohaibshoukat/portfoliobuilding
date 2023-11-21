@@ -1,0 +1,150 @@
+.mainSec{
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.ImageSec{
+    max-width: 100%;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.ImageSec img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.HeadData{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ImData h1{
+    font-size: 80px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.post{
+    border-radius: 30px;
+    background-color: pink;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.Contact{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Contact h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.SocialMedia{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: pink;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.SocialMedia h4{
+    margin-bottom: 0px;
+    font-size: 24px ;
+    font-weight: 400;
+}
+
+.Edu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.EduField{
+    display: flex;
+    flex-direction:column ;
+    gap: 30px;
+}
+
+.EduField h2{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 5px 50px 5px 5px;
+    width: fit-content;
+    margin-bottom: 0px;
+}
+
+.EduField h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Projects{
+    padding: 20px 50px;
+}
+
+.Projects h2{
+    color: Red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gridSet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.ImageSectionP{
+    border-radius: 15px;
+    max-height: 300px;
+}
+
+.ImageSectionP img{
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.InputSec{
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #a3a3a3;
+    margin-bottom: 20px;
+}
+
+.text{
+    height: 100px;
+}
